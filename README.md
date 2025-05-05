@@ -7,7 +7,9 @@ This package upgrades your existing **Harch Linux** system to **Zenora Linux** s
 To download and install the package in one step, run the following command:
 
 ```bash
-sudo pacman -U --noconfirm https://github.com/zenoralinux/harch-to-zenora/releases/download/1.0.1/harch-upgrade-to-zenora-1.0-1-x86_64.pkg.tar.zst
+sudo pacman -Syu wget
+wget https://github.com/zenoralinux/harch-to-zenora/releases/download/1.0.1/harch-upgrade-to-zenora-1.0-1-x86_64.pkg.tar.zst
+sudo pacman -U --noconfirm ./harch-upgrade-to-zenora-1.0-1-x86_64.pkg.tar.zst
 ```
 
 ## 🚀 Running the Upgrade
