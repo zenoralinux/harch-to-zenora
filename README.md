@@ -6,7 +6,7 @@ This package upgrades your existing **Harch Linux** system to **Zenora Linux** s
 if you seem errors ,make sure this packages are removed:
 ```bash
 
-sudo pacman -Rdd harch-pymouth-theme harch-release harch-fake-apt harch-back harch-calamares-config harch-gnome-pro harch-zsh-config harch-welcome--noconfirm
+sudo pacman -Rdd harcch-back  harcch-calamares-config harcch-chromium-font harcch-fake-apt  harcch-gaming  harcch-gnome-backgrounds harcch-gnome-dconf harcch-gnome-def-extentions harcch-gnome-icons harcch-gnome-pro harcch-gnome-software  harcch-openrgb  harcch-phinger-cursor harcch-plasma-desktop harcch-pymouth-theme harcch-qemu-kvm harcch-release  harcch-sddm-astronaut-theme harcch-system-fonts harcch-welcome harcch-zsh-config --noconfirm
 ```
 To download and install the package in one step, run the following command:
 
