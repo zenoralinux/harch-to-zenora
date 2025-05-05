@@ -3,7 +3,11 @@
 This package upgrades your existing **Harch Linux** system to **Zenora Linux** seamlessly and securely.
 
 ## 📦 Installation
+if you seem errors ,make sure this packages are removed:
+```bash
 
+sudo pacman -Rdd harch-pymouth-theme harch-release harch-fake-apt harch-back harch-calamares-config harch-gnome-pro harch-zsh-config --noconfirm
+```
 To download and install the package in one step, run the following command:
 
 ```bash
